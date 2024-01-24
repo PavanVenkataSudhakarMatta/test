@@ -1,0 +1,8 @@
+const txt = '{"name":"John", "age":30, "city":"New York"}'
+var person = '{ "firstName":"John", "lastName":"Doe", "age":50, "eyeColor":"blue" }'
+
+const obj = JSON.parse(txt);
+console.log(obj);
+
+const obj1 = JSON.stringify(txt);
+console.log(obj1);
